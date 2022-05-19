@@ -3,6 +3,7 @@
 “dice-computer” is a game, in which you and your friends
 pretend to be the computer.
 
+![example of dice computer](./dice-computer.png)
 ## Why?
 
 See [HISTORY.md](./HISTORY.md)
