@@ -4,9 +4,6 @@
 pretend to be the computer.
 
 ![example of dice computer](./dice-computer.png)
-## Why?
-
-See [HISTORY.md](./HISTORY.md)
 
 ## OK, how?
 
