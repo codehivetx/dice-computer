@@ -12,7 +12,9 @@ Format is `II - NN` where `II` is the opcode, and `NN` is the operand.
 | 15 |    | `NOOP` | Do nothing |
 | 16 | NN | `HALT` | NN=11: and catch fire |
 | 21 |    | `RND A` | Roll AA (both dice). Random. |
-| 23 | NN | `AA,XX -> [NN]` | Copy AA-XX into memory `NN` |
+| 22 | NN | `[NN+XX] -> AA` | Copy memory NN+XX into AA |
+| 23 | NN | `AA,XX -> [NN]` | Copy "AA-XX" into memory `NN` |
+| 24 | NN | `AA -> [NN+XX]` | Copy AA into memory NN+XX |
 | 25 | NN | `NN -> XX` | Copy NN into XX |
 | 26 | NN | `NN -> AA` | Copy NN into AA |
 | 31 | PP | `AA -> (PP)` | Copy AA to output port PP (see [Ports](#ports)) |
@@ -43,6 +45,26 @@ See also [PAD-11](./PAD-11.md) for text encoding.
 | Port | Meaning |
 | ---- | ------- |
 | 31 11 | Read letter from a pad of paper, or ask user for a letter. |
+
+## Math
+
+What does `1-1 + 1-1` equal? `1-1`! Here's a table for adding or subtracting.
+
+In other words, Adding `1-1` would add zero, adding `1-2` would add 1, etc.
+
+TODO: Overflow!
+
+| NN | ±  |
+| -- | -- | 
+| 11 | 0  |
+| 12 | 1  |
+| 13 | 2  |
+| 14 | 3  |
+| 15 | 4  |
+| 16 | 5  |
+| 21 | 6  |
+| …… | …  |
+| 66 | 35 |
 
 ## Author
 
