@@ -1,7 +1,7 @@
 # `PAD-11` - a dice based encoding.
 
 Combining all the multilingual capabilities of ASCII,
-with the ease-of-memorization of GB-13080! See below for design points.
+with the ease-of-memorization of GB-18030! See below for design points.
 25-K means dice `2`+`5` yields a `K`
 
 | #  | k | | #  | k |
@@ -36,7 +36,7 @@ Steven R. Loomis (@srl295) of [Code Hive Tx, LLC](https://codehivetx.us)
 
 ## License
 
-All text is © 2022 Code Hive Tx LLC and licensed under [CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/) which is also in [LICENSE](./LICENSE)
+All text is © 2022-2025 Code Hive Tx LLC and licensed under [CC-BY-SA-4.0](http://creativecommons.org/licenses/by-sa/4.0/) which is also in [LICENSE](./LICENSE)
 
 > This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <http://creativecommons.org/licenses/by-sa/4.0/> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
